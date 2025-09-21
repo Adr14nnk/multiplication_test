@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&family=Comfortaa:wght@300..700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    margin-top: 100px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: radial-gradient(#1a0f1f); /* ciemne tło */
+    color: #f5e6c5; /* lekko złoty beż */
+    font-family: "MedievalSharp", cursive; /* fantasy font */
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-shadow: 0 0 6px #6a3fb5;
+}
+
+table.test_page {
+    border: solid 4px #d4af37; /* złota ramka */
+    background: linear-gradient(135deg, #2a1f3d, #1c1c2b); 
+    border-radius: 20px;
+    width: 520px;
+    height: 520px;
+    box-shadow: 0 0 25px rgba(212, 175, 55, 0.6);
+}
+
+td.action {
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    color: #f0d9b5;
+    background: linear-gradient(145deg, #3a235d, #29163d);
+    border-radius: 12px;
+    box-shadow: inset 0 0 12px rgba(255, 215, 0, 0.4);
+}
+
+td.timer {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid #d4af37;
+    border-radius: 12px;
+    background: #f5e6c5;
+    color: #2a1f3d;
+    font-weight: 900;
+    padding: 12px;
+    box-shadow: inset 0 0 8px rgba(90, 50, 120, 0.5);
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 520px;
+    height: 70px;
+    background: linear-gradient(145deg, #5b2a86, #301934); /* magiczny fiolet */
+    color: #f5e6c5;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 18px;
+    border: 2px solid #d4af37;
+    margin-top: 15px;
+    transition: 0.2s;
+    text-shadow: 0 0 6px #d4af37;
+}
+
+button:hover {
+    background: linear-gradient(145deg, #7135a0, #3a1e50);
+    box-shadow: 0 0 18px rgba(212, 175, 55, 0.8);
+}
+
+button:active {
+    background: #201020;
+    transform: scale(0.95);
+}
+
+input.submit {
+    border: 0px;
+    background: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #d4af37;
+    text-shadow: 0 0 6px #6a3fb5;
+}
+
+input.text_box {
+    border: solid 2px #d4af37;
+    background: #1c1c2b;
+    color: #f5e6c5;
+    padding: 8px 12px;
+    border-radius: 8px;
+    box-shadow: inset 0 0 8px rgba(212, 175, 55, 0.5);
+}
+
+a {
+    text-decoration: none;
+    color: #d4af37;
+    font-weight: bold;
+    text-shadow: 0 0 5px #6a3fb5;
+}
